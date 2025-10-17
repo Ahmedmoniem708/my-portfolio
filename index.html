@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Mohamed - AI & ML Portfolio</title>
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons for icons (Requires Internet) -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <!-- Header and Navigation -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a> 
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Ahmed Mohamed Abdelmoniem</h1>
+            <!-- The span below is for the typing animation effect controlled by script.js -->
+            <h3>And I'm an <span class="highlight typing-container"><span class="typing" id="typed-text"></span><span class="cursor"></span></span></h3> 
+            <p>A dedicated student specializing in Machine Learning and Data Analysis. I turn complex data into intelligent, practical solutions using Python and cutting-edge frameworks.</p>
+            
+            <div class="social-media">
+                <!-- LinkedIn -->
+                <a href="[Your LinkedIn Link]" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <!-- GitHub -->
+                <a href="https://github.com/Ahmedmoniem708" target="_blank"><i class='bx bxl-github'></i></a>
+                <!-- WhatsApp -->
+                <a href="tel:+201012885132"><i class='bx bxl-whatsapp'></i></a>
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/ahmed_3bdelmoniem?igsh=OHFjZ2phbTkxa3Vz" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <!-- Facebook -->
+                <a href="https://www.facebook.com/share/16NwZEggXR/" target="_blank"><i class='bx bxl-facebook'></i></a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <!-- UPDATED: Changed image source to the new path -->
+            <img src="assets/profile.jpg.jpg" alt="Ahmed Mohamed Profile"> 
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <!-- UPDATED: Changed image source to the new path -->
+            <img src="assets/profile.jpg.jpg" alt="About Image">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span class="highlight">Me</span></h2>
+            <h3>AI & ML Engineering Student</h3>
+            <p>I am an enthusiastic Engineering student specializing in Artificial Intelligence at **New Ismailia Private University**. My passion lies in building functional and efficient machine learning models. I possess a strong foundation in both **AI application development (TensorFlow/Scikit-learn)** and **web technologies (React.js/JavaScript)**, allowing me to deliver end-to-end software solutions. I thrive on logical and systematic problem-solving and am actively seeking challenging freelance work to expand my practical expertise.</p>
+            <a href="#contact" class="btn">Hire Me</a>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span class="highlight">Skills</span></h2>
+        
+        <div class="skills-row">
+            <!-- Technical Skills Column -->
+            <div class="technical-skills">
+                <h3>Technical Skills</h3>
+                <div class="skill-bar"><h4>Python <span>90%</span></h4><div class="bar-fill" style="width: 90%;"></div></div>
+                <div class="skill-bar"><h4>Scikit-learn <span>90%</span></h4><div class="bar-fill" style="width: 90%;"></div></div>
+                <div class="skill-bar"><h4>TensorFlow / PyTorch <span>75%</span></h4><div class="bar-fill" style="width: 75%;"></div></div>
+                <div class="skill-bar"><h4>React.js / JavaScript <span>70%</span></h4><div class="bar-fill" style="width: 70%;"></div></div>
+                <div class="skill-bar"><h4>Git / GitHub <span>95%</span></h4><div class="bar-fill" style="width: 95%;"></div></div>
+                <div class="skill-bar"><h4>C++ <span>85%</span></h4><div class="bar-fill" style="width: 85%;"></div></div>
+            </div>
+
+            <!-- Professional Skills Column -->
+            <div class="professional-skills">
+                <h3>Professional Skills</h3>
+                <div class="skill-item"><h4>Problem Solving</h4><div class="circle-progress" data-percent="95">95%</div> </div>
+                <div class="skill-item"><h4>Teamwork</h4><div class="circle-progress" data-percent="80">80%</div></div>
+                <div class="skill-item"><h4>Project Management</h4><div class="circle-progress" data-percent="70">70%</div></div>
+                <div class="skill-item"><h4>Communication</h4><div class="circle-progress" data-percent="75">75%</div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2 class="heading">My Latest <span class="highlight">Projects</span></h2>
+        
+        <div class="projects-container">
+            <!-- Project 1: Spam Detector (Classification) -->
+            <div class="project-box">
+                <!-- Placeholder for Text Classification image -->
+                <img src="https://placehold.co/400x200/00abf0/081b29?text=96.5%25+Accuracy+NLP+Classifier" alt="AI Spam Detector Project"> 
+                <div class="project-layer">
+                    <h4>AI Spam Detector (Classification)</h4>
+                    <p>Built an ML model using Naive Bayes and TF-IDF to classify SMS messages. Demonstrates strong foundational NLP skills.</p>
+                    <!-- UPDATED: Accuracy value to 96.50% -->
+                    <p class="result">Key Result: Accuracy: 96.50%</p>
+                    <a href="https://github.com/Ahmedmoniem708/AI-Spam-Detector" target="_blank"><i class='bx bxl-github'></i> View Code</a>
+                </div>
+            </div>
+
+            <!-- Project 2: House Price Predictor (Regression) -->
+            <div class="project-box">
+                <!-- Placeholder for Regression/Prediction image -->
+                <img src="https://placehold.co/400x200/081b29/00abf0?text=Regression+Prediction+Model" alt="House Price Prediction Project"> 
+                <div class="project-layer">
+                    <h4>House Price Regression Model</h4>
+                    <p>Developed a Linear Regression model to predict house values, highlighting skills in Data Analysis and Regression Metrics.</p>
+                    <p class="result">Key Result: R-squared: 0.60</p>
+                    <a href="https://github.com/Ahmedmoniem708/House-Price-Regression-ML" target="_blank"><i class='bx bxl-github'></i> View Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span class="highlight">Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" value="ahmed.mohamedem797979@gmail.com" required>
+            </div>
+            <div class="input-box">
+                <input type="tel" placeholder="Mobile Number" value="+201012885132" required>
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by Ahmed Mohamed | All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Link to your JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
